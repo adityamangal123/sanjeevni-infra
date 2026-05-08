@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sanjeevniinfra.lovable.app/sitemap.xml
