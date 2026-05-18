@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap");
 
 :root {
   --bg: #0a1428;
@@ -137,8 +137,8 @@ h1,
 h2,
 h3 {
   font-family: "Barlow Condensed", "Inter", sans-serif;
-  font-weight: 600;
-  line-height: 1.2;
+  font-weight: 450;
+  
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
@@ -535,11 +535,11 @@ body[data-page="about"] {
   letter-spacing: 2.6px;
   text-transform: uppercase;
 }
-
+@media((max-width: 1080px)){
 .about-topbar .nav-links {
-  gap: 2.2rem;
-  color: #d4cfcb;
-  font-size: 0.92rem;
+  gap: .85rem;
+  font-size: 0.86rem;
+}
 }
 
 .about-topbar .nav-links a.active,
@@ -567,7 +567,7 @@ body[data-page="about"] {
 
 .about-hero h1,
 .about-section h2 {
-  font-size: clamp(2.9rem, 6vw, 5.8rem);
+  font-size: clamp(2.9rem, 5vw, 5.8rem);
   line-height: 0.95;
   letter-spacing: 1px;
 }
@@ -754,7 +754,7 @@ body[data-page="about"] {
 }
 
 .leader-card img {
-  aspect-ratio: 0.78;
+  
   margin-bottom: 1.5rem;
 }
 
@@ -985,7 +985,7 @@ body {
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 6vw, 6rem);
+  font-size: clamp(3rem, 5vw, 6rem);
   line-height: 0.95;
   max-width: 13ch;
 }
@@ -1485,5 +1485,338 @@ footer,
   .build-card-content {
     left: 1.25rem;
     right: 1.25rem;
+  }
+}
+
+
+/* News detail pages */
+.news-link-card {
+  display: block;
+}
+
+.news-link-card .read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--brand);
+  font-family: "Barlow Condensed", "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.news-article-hero {
+  background: var(--bg);
+  color: #f8f6f4;
+  padding-bottom: 5rem;
+}
+
+.news-article-shell {
+  max-width: 880px;
+}
+
+.news-back {
+  display: inline-block;
+  color: var(--brand);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.news-article-hero h1 {
+  color: #fff;
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  line-height: 0.95;
+  margin-top: 1.2rem;
+}
+
+.news-date {
+  color: var(--brand);
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.news-summary {
+  color: #d4cfcb;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.news-article-body-section {
+  background: #f7f4ef;
+}
+
+.news-article-body {
+  background: #fff;
+  border: 1px solid #ddd6cf;
+  padding: clamp(2rem, 5vw, 4rem);
+}
+
+.news-article-body p {
+  color: var(--text-light);
+  font-size: 1.08rem;
+  margin-bottom: 1.35rem;
+}
+
+.news-highlights {
+  background: var(--surface-muted);
+  border-left: 6px solid var(--brand);
+  margin: 2rem 0;
+  padding: 1.5rem 1.75rem;
+}
+
+.news-highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.news-highlights ul {
+  display: grid;
+  gap: 0.6rem;
+  color: var(--text-light);
+  padding-left: 1.2rem;
+}
+
+
+/* Requested homepage updates */
+.hero-content {
+  position: relative;
+  max-width: 760px;
+}
+
+.hero-content h1 {
+  max-width: 18ch;
+}
+
+.build-card {
+  display: block;
+}
+
+.build-card:hover img {
+  transform: scale(1.05);
+}
+
+.client-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.client-logo-grid article {
+  min-height: 128px;
+  display: grid;
+  align-content: center;
+  gap: 0.45rem;
+  background: #fff;
+  border: 1px solid #d8d0c8;
+  padding: 1.15rem;
+}
+
+.client-logo-grid strong {
+  color: var(--brand);
+  font-family: "Barlow Condensed", "Inter", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 0.9;
+  letter-spacing: 0.8px;
+}
+
+.client-logo-grid span {
+  color: #2b2725;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.management-section {
+  background: #f7f4ef;
+}
+
+.management-grid {
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.management-card {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 2rem;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d8d0c8;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.management-mark {
+  width: 170px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--brand);
+  font-family: "Barlow Condensed", "Inter", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.management-card h3 {
+  color: #2b2725;
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin: 0.7rem 0;
+}
+
+.management-card p {
+  color: var(--text-light);
+}
+
+.join-team-section {
+  background: var(--bg);
+  color: #fff;
+}
+
+.join-team-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.join-team-grid h2 {
+  color: #fff;
+  font-size: clamp(2.6rem, 5vw, 4.4rem);
+  line-height: 0.95;
+}
+
+.join-team-grid p {
+  color: #d4cfcb;
+  font-size: 1.1rem;
+  max-width: 62ch;
+  margin-top: 1rem;
+}
+
+.map-link {
+  margin-top: 1rem;
+}
+
+.map-link a {
+  color: var(--brand);
+  font-weight: 700;
+}
+
+@media (max-width: 960px) {
+  .client-logo-grid,
+  .management-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .management-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .client-logo-grid,
+  .management-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .join-team-grid {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .management-mark {
+    width: 130px;
+    font-size: 3rem;
+  }
+}
+
+
+/* Long governance menu label adjustment */
+.nav-links {
+  gap: 1.35rem;
+}
+
+@media (max-width: 1080px) {
+  .nav-links {
+    gap: 0.85rem;
+    font-size: 0.86rem;
+  }
+}
+
+
+/* Corporate governance reference page */
+.governance-page {
+  background: #f7f4ef;
+}
+
+.governance-hero {
+  background: var(--bg);
+  color: #f8f6f4;
+  padding: 7.8rem 0 10.5rem;
+}
+
+.governance-hero h1 {
+  color: #fff;
+  font-size: clamp(4rem, 5vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: 1px;
+  margin-bottom: 1.6rem;
+}
+
+.governance-hero p {
+  color: #d4cfcb;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  max-width: 78ch;
+}
+
+.governance-docs-section {
+  background: #f7f4ef;
+  padding: 7.5rem 0 8rem;
+}
+
+.governance-docs {
+  max-width: 980px;
+  text-align: center;
+}
+
+.governance-docs svg {
+  width: 64px;
+  height: 64px;
+  color: var(--brand);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-bottom: 2rem;
+}
+
+.governance-docs h2 {
+  color: #101010;
+  font-size: clamp(2.4rem, 4vw, 3.3rem);
+  line-height: 0.95;
+  margin-bottom: 1.6rem;
+}
+
+.governance-docs p {
+  color: var(--text-light);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.75;
+  max-width: 850px;
+  margin: 0 auto 2rem;
+}
+
+.governance-docs em {
+  color: #6d665f;
+}
+
+@media (max-width: 760px) {
+  .governance-hero {
+    padding: 5.5rem 0 7rem;
+  }
+
+  .governance-docs-section {
+    padding: 5rem 0;
   }
 }

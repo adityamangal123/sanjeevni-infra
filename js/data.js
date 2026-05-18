@@ -8,10 +8,10 @@ const defaults = {
     { title: "Lucknow Green Boulevard", category: "Sustainable", location: "Lucknow", year: "2026" }
   ],
   posts: [
-    { title: "Sanjeevni Infra wins new highway package", date: "2026-03-10", summary: "A 62 km package focused on resilient pavements and safety assets." },
-    { title: "How BIM improves delivery speed", date: "2026-02-20", summary: "Digital-first execution is reducing delays and improving quality checks." },
-    { title: "Bridge segment launch completed ahead of schedule", date: "2026-01-14", summary: "Night-shift planning and staged logistics improved productivity and safety compliance." },
-    { title: "Sustainable drainage pilot expanded across urban packages", date: "2025-12-02", summary: "Low-maintenance drainage features are now integrated in multiple city corridor projects." }
+    { title: "Sanjeevni Infra wins new highway package", date: "2026-03-10", summary: "A 62 km package focused on resilient pavements and safety assets.", url: "news-highway-package.html" },
+    { title: "How BIM improves delivery speed", date: "2026-02-20", summary: "Digital-first execution is reducing delays and improving quality checks.", url: "news-bim-delivery-speed.html" },
+    { title: "Bridge segment launch completed ahead of schedule", date: "2026-01-14", summary: "Night-shift planning and staged logistics improved productivity and safety compliance.", url: "news-bridge-segment-launch.html" },
+    { title: "Sustainable drainage pilot expanded across urban packages", date: "2025-12-02", summary: "Low-maintenance drainage features are now integrated in multiple city corridor projects.", url: "news-sustainable-drainage-pilot.html" }
   ],
   jobs: [
     { role: "Site Engineer", location: "Bhopal", type: "Full Time" },

@@ -1,11 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://sanjeevniinfra.lovable.app/</loc></url>
   <url><loc>https://sanjeevniinfra.lovable.app/about</loc></url>
   <url><loc>https://sanjeevniinfra.lovable.app/projects</loc></url>
-  <url><loc>https://sanjeevniinfra.lovable.app/blog</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/governance</loc></url>
   <url><loc>https://sanjeevniinfra.lovable.app/careers</loc></url>
   <url><loc>https://sanjeevniinfra.lovable.app/contact</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-digital-project-monitoring</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-pre-monsoon-readiness</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-highway-package</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-bim-delivery-speed</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-bridge-segment-launch</loc></url>
+  <url><loc>https://sanjeevniinfra.lovable.app/news-sustainable-drainage-pilot</loc></url>
 </urlset>
 
 
